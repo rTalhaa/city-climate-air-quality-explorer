@@ -40,6 +40,18 @@ The dashboard helps compare a small set of cities across questions such as:
 - Which cities experience the heaviest rainfall patterns?
 - How do distribution and variability differ, not just the averages?
 
+## Results / Key insights
+
+Using the current one-year cached sample for Karachi, Lahore, Dubai, London, and Singapore, the dashboard already surfaces a few clear patterns:
+
+- Dubai consistently appears as the hottest city in the comparison set across average maximum temperature.
+- Lahore stands out on precipitation totals, making it the wettest city in the current dashboard view.
+- Karachi often performs better on average AQI than the other selected South Asian comparison cities in the default slice.
+- Monthly heatmaps make seasonal contrast easy to see, especially when comparing Gulf, South Asian, and temperate-city patterns side by side.
+- The temperature-versus-AQI view helps show that air-quality behavior does not move in a simple one-direction pattern with temperature alone, which makes the comparison more interesting than a single summary metric.
+
+These are dashboard-driven observations rather than fixed scientific conclusions, and they will change as the selected cities, metric, and date range change.
+
 ## Why this project
 
 - Public data only: Open-Meteo provides free geocoding, historical weather, and air-quality APIs.
